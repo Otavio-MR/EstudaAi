@@ -5,4 +5,4 @@ O Sistema/Aplicativo, busca oferecer aos úsuarios as mais famosas formas de apr
 # Membros (Desenvolvedores)
 
 - João Victor Souza da Silva - BackEnd
-- Otavio Marcondes Ramalho - FrontEnd
+- Otavio Marcondes Ramalho - FrontEnd - Melhor amigo do Diogo Olsen
