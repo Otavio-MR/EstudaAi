@@ -35,7 +35,7 @@ const getSubjectsbyFocus = async(req,res)=> {
 const getSubjectsbyId = async (req, res) => {
    
     const id = req.params.id
-    const subject =  await Subject.findById(id)
+    const subject = await Subject.findById(id)
 
     if (!subject){
        
