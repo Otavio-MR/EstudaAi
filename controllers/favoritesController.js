@@ -5,9 +5,12 @@ const createFavorite = async (req, res) => {
     try{
         const {subjectId} = req.body;
         const favorite = await Favorite.create({subjectId});
+        if(!favorite){
+            return res.status(400).json({message:"Não foi posssível criar um favorito, pois ele já existe!", favorite: favorite})
+        }
         res.status(201).json(favorite);
     }catch(error){
-        res.status(500).json({
+        res.status(500).json({ 
             message:'Não foi possível favoritar!',
            error: error.message
         })
