@@ -8,15 +8,10 @@ const NotesSchema = new mongoose.Schema({
         required: true
     },
     descricao:{
-        type: String,
-        required: true
-    },
-    date:{
-        type: Date,
-        default: Date.now
+        type: String
     }
-
-})
+},{timestamps: true}
+);
 
 // exporto a classe para que possa ser usada em outros lugares
 module.exports = mongoose.model("Notes", NotesSchema);
