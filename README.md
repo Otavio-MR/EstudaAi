@@ -17,6 +17,8 @@ Oferecer aos estudantes uma plataforma simples e organizada para encontrar conte
 - Otavio Marcondes Ramalho
 - João Victor Souza da Silva
 
+---
+
 ## 📱 Plataforma
 
 * Aplicativo Mobile
