@@ -159,4 +159,4 @@ Instituto Federal do Paraná (IFPR)
 
 ## 📌 Status do Projeto
 
-🚧 Em desenvolvimento 🚧
+✅ Concluído e Funcionando ✅
