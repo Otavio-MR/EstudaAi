@@ -59,7 +59,7 @@ export default function Anotacoes() {
         setModalAberto(true);
     }
 
-    // Salva — edita se tiver id, cria nova se não tiver
+    // Salva e edita se tiver id, cria nova se não tiver
     async function salvarAnotacao() {
         if (novoTitulo.trim() === '') return;
 
